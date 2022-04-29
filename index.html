@@ -13,6 +13,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -23,20 +24,25 @@
         <nav class="links">
           <ul>
             <li><a href="#about_me">About Me</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <!-- Main -->
       <div id="main">
-        <!-- Post -->
+        <!-- about_me -->
         <article class="post" id="about_me">
           <header>
             <div class="title">
               <h2>About Me</h2>
+            </div>
+          </header>
+          <div class="image featured flex_row">
+            <img src="images/profile.png" alt="profile" />
+            <div>
               <p>
                 I am a native Japanese speaker and Full Stack Software Engineer
                 with experience with JavaScript, React, Redux, Express, Node,
@@ -56,77 +62,182 @@
                 knowledge for good.
               </p>
             </div>
-          </header>
-          <a href="single.html" class="image featured"
-            ><img src="images/pic01.jpg" alt=""
-          /></a>
-          <p>
-            Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
-            Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
-            enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
-            congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed
-            vitae justo condimentum, porta lectus vitae, ultricies congue
-            gravida diam non fringilla.
-          </p>
+          </div>
           <footer>
             <ul class="actions">
               <li>
-                <a href="single.html" class="button large">Continue Reading</a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/junki-sato-7bb773208/"
+                  class="button large"
+                  >LinkedIn</a
+                >
               </li>
-            </ul>
-            <ul class="stats">
-              <li><a href="#">General</a></li>
-              <li><a href="#" class="icon solid fa-heart">28</a></li>
-              <li><a href="#" class="icon solid fa-comment">128</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/j00nk1"
+                  class="button large"
+                  >GitHub</a
+                >
+              </li>
             </ul>
           </footer>
         </article>
 
-        <!-- Post -->
+        <!-- Projects -->
         <article class="post">
           <header>
-            <div class="title">
-              <h2>
-                <a href="single.html"
-                  >Ultricies sed magna euismod enim vitae gravida</a
-                >
-              </h2>
-              <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-            </div>
-            <div class="meta">
-              <time class="published" datetime="2015-10-25"
-                >October 25, 2015</time
-              >
-              <a href="#" class="author"
-                ><span class="name">Jane Doe</span
-                ><img src="images/avatar.jpg" alt=""
-              /></a>
+            <div class="title" id="projects">
+              <h2>Projects</h2>
+              <p>What I've made so far</p>
             </div>
           </header>
-          <a href="single.html" class="image featured"
-            ><img src="images/pic02.jpg" alt=""
-          /></a>
-          <p>
-            Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
-            Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
-            enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
-            congue ullam corper.
-          </p>
-          <footer>
-            <ul class="actions">
-              <li>
-                <a href="single.html" class="button large">Continue Reading</a>
-              </li>
-            </ul>
-            <ul class="stats">
-              <li><a href="#">General</a></li>
-              <li><a href="#" class="icon solid fa-heart">28</a></li>
-              <li><a href="#" class="icon solid fa-comment">128</a></li>
-            </ul>
-          </footer>
+          <div class="project_container">
+            <!-- Audio Hunt -->
+            <div class="project_card">
+              <a
+                target="_blank"
+                href="https://audio-hunt.herokuapp.com/"
+                class="image featured"
+                ><img src="images/audio_hunt.gif" alt="audio hunt demo"
+              /></a>
+              <p>
+                Audio Hunt is a community based website where music enthusiasts
+                can view and discuss popular soundtracks in order to find new
+                music that they can fall in love with.
+              </p>
+              <footer>
+                <ul class="actions">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://audio-hunt.herokuapp.com/"
+                      class="button large"
+                      >Live Site</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Watts-Blake/audio-hunt"
+                      class="button large"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </footer>
+            </div>
+
+            <!-- You Ever Note -->
+            <div class="project_card">
+              <a
+                target="_blank"
+                href="https://you-ever-note.herokuapp.com/"
+                class="image featured"
+                ><img src="images/you_ever_note.gif" alt="you ever note"
+              /></a>
+              <p>
+                You Ever Note is a clone of Evernote where users can keep
+                personal notes and categorize them with their custom notebooks.
+              </p>
+              <footer>
+                <ul class="actions">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://you-ever-note.herokuapp.com/"
+                      class="button large"
+                      >Live Site</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/j00nk1/react-solo-project"
+                      class="button large"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </footer>
+            </div>
+
+            <!-- Scooped -->
+            <div class="project_card">
+              <a
+                target="_blank"
+                href="https://aa-scooped.herokuapp.com/"
+                class="image featured"
+                ><img src="images/scooped.gif" alt="you ever note"
+              /></a>
+              <p>
+                Scooped is a clone of Untappd where users can view a wide
+                variety of ice creams, explore their descriptions and even
+                submit new ice creams to be added. Create an account to be able
+                to leave reviews on ice creams and have your own profile to keep
+                your ice cream submissions in order.
+              </p>
+              <footer>
+                <ul class="actions">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://aa-scooped.herokuapp.com/"
+                      class="button large"
+                      >Live Site</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/dcaicedo87/Scooped"
+                      class="button large"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </footer>
+            </div>
+
+            <!-- Quote Typing -->
+            <div class="project_card">
+              <a
+                target="_blank"
+                href="https://quote-typing.herokuapp.com/"
+                class="image featured"
+                ><img src="images/quote-typing.gif" alt="you ever note"
+              /></a>
+              <p>
+                Quote-typing is a typing practice application where users can
+                practice typing with famous quotes. Most of the quotes are
+                fetched fromZenQuotes.io.
+              </p>
+              <footer>
+                <ul class="actions">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://quote-typing.herokuapp.com/"
+                      class="button large"
+                      >Live Site</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/j00nk1/aa-solo-project-capstone"
+                      class="button large"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </footer>
+            </div>
+          </div>
         </article>
 
-        <!-- Post -->
+        <!-- Skills -->
         <article class="post">
           <header>
             <div class="title">
@@ -497,7 +608,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
         <section id="intro">
           <a href="#" class="logo"><img src="images/profile.png" alt="" /></a>
           <header>
-            <h2>Junki Sato</h2>
+            <h2 class="sidebar_header">Junki Sato</h2>
             <p>Full Stack Software Engineer</p>
           </header>
         </section>
