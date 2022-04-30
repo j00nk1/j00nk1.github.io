@@ -34,3 +34,12 @@ article .project_container {
 .skill_card p {
   text-align: center;
 }
+.icon.fa-solid.fa-envelope::before {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+  #footer {
+    text-align: center;
+  }
+}
